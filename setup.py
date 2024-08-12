@@ -1,13 +1,3 @@
-from setuptools import setup, find_packages
-
-setup(
-    name='roulier',
-    version='1.0.0',
-    packages=find_packages(),
-    install_requires=[
-        # Ajoutez ici les dépendances requises
-    ],
-    include_package_data=True,
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
@@ -25,5 +15,4 @@ setup(
     include_package_data=True,
     package_data={'roulier': ['*.xml', '*.xsl', '*.zpl']},
 
-))
-
+)
